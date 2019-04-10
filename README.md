@@ -2,7 +2,7 @@
 A Novel Apex-Time Network for Cross-Dataset Micro-Expression Recognition
 
 # Platforms and dependencies
-Ubuntu 16.04   Python 2.7    CUDA8.0    CuDNN6.0+
+Ubuntu 16.04  Python 2.7  CUDA8.0 CuDNN6.0+  
 Caffe：https://github.com/BVLC/caffe/
 
 # Prepare
