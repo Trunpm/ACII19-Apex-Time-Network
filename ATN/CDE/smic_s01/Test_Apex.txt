@@ -1,0 +1,6 @@
+smic-s01-s01_ne_01-image559757.bmp 0
+smic-s01-s01_ne_02-image563869.bmp 0
+smic-s01-s01_ne_03-image658549.bmp 0
+smic-s01-s01_po_01-image701854.bmp 1
+smic-s01-s01_po_02-image702623.bmp 1
+smic-s01-s01_sur_01-image550006.bmp 2
