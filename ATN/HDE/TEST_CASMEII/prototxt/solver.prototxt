@@ -1,0 +1,17 @@
+train_net: "ATN/HDE/Test_CASMEII/prototxt/train.prototxt"
+test_net: "ATN/HDE/Test_CASMEII/prototxt/test.prototxt"
+
+test_iter: 145
+test_interval: 50
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 500
+max_iter: 2500
+momentum: 0.9
+weight_decay: 0.000005
+display: 50
+snapshot: 2500
+
+snapshot_prefix: "ATN/HDE/Test_CASMEII/prototxt/model"
+solver_mode: GPU
