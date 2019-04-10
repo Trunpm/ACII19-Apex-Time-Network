@@ -19,7 +19,7 @@ Caffe：https://github.com/BVLC/caffe/
   1. **Add_python_layers** contain a *.py* scrip that for image and point data load in Caffe.  
   2. **Apex_Cropped_images** contains all the Apex images of three Database (namely: CASMEII   SAMM   SMIC).  **Apex_Cropped_images.txt** contains image root and label in **Apex_Cropped_images** fold.  
   3. **OpticalFlowFeatureData.txt** is the temporal features described in our paper.  
-  
+    
   
   
 # ATN
@@ -32,7 +32,43 @@ This fold is our proposed network for Cross-Dataset Micro-Expression Recognition
 * Notice: for each tries, you can use the *get_samples_Train_Test_TXT.py* to get the .txt list.
   
 * How to run  
-For the exsample of CASMEII_sub01 fold, you just need to change your root in ../ACII19-Apex-Time-Network-master/, and then run: sh train_net.sh in the terminal.
+Take the CASMEII_sub01 fold for example, you just need to change your root in ../ACII19-Apex-Time-Network-master/, and then run: sh train_net.sh in the terminal.  
+  
+  
+  
+# MicroAttentionNet(Compared)
+This fold is the compared method used in our paper.  
+Micro-Attention outperformed the method described in the paper "From Macro to Micro Expression Recognition: Deep Learning on Small Datasets Using Transfer Learning", the latter one won the first place in the Facial Micro-Expression Grand Challenge (MEGC2018) at FG 2018.
+  
+  
+  
+# LBP-TOP(Compared)
+This fold is the compared method used in our paper.  
+Features.zip contained all the LBP-TOP features.   
+  
+  
+# HOOF(Compared)
+This fold is the compared method used in our paper.  
+Features.zip contained all the HOOF features.
+The optical method for HOOF is refer to https://www.researchgate.net/publication/320373402_Dual_Temporal_Scale_Convolutional_Neural_Network_for_Micro-Expression_Recognition
+  
+  
+  
+# Citation
+  
+If it is helpful, please cite:  
+  
+A Novel Apex-Time Network for Cross-Dataset Micro-Expression Recognition.  
+  
+Micro-Attention for Micro-Expression recognition. Chongyang Wang, Min Peng, Tao Bi, Tong Chen. arXiv preprint arXiv:1811.02360, 2018.  
+  
+From Macro to Micro Expression Recognition: Deep Learning on Small Datasets Using Transfer Learning. Min Peng, Wu Zhan, Zhihao Zhang, Tong Chen. IEEE International Conference on Automatic Face & Gesture Recognition 2018.  
+  
+Dual temporal scale convolutional neural network for micro-expression recognition. Min Pen, Chongyang Wang, Tong Chen. Frontiers in psychology.
+
+
+
+
 
 
 
