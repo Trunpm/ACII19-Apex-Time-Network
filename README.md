@@ -10,7 +10,7 @@ Caffe：https://github.com/BVLC/caffe/
   
   
 # Prepare
-* Download the database (option)
+* Download the database (option)  
   CASMEII: http://fu.psych.ac.cn/CASME/casme2-en.php  
   SAMM: http://www2.docm.mmu.ac.uk/STAFF/m.yap/dataset.php  
   SMIC: https://www.oulu.fi/cmvs/node/41319  
@@ -25,11 +25,13 @@ Caffe：https://github.com/BVLC/caffe/
 # ATN
 This fold is our proposed network for Cross-Dataset Micro-Expression Recognition.  
   
-**CDE** is the Composite Database Evaluation. For CASMEII_sub01, it means all samples (from the full consolidated database) are used for training except sub01 in CASMEII.   
-**HDE** is the Holdout-Database Evaluation. For TEST_CASMEII, it means the model is trained on two datasets(SAMM SMIC) and tested on CASMEII.
-Notice: for each tries, you can use the *get_samples_Train_Test_TXT.py* to get the .txt list.
+* **CDE** is the Composite Database Evaluation. For CASMEII_sub01, it means all samples (from the full consolidated database) are used for training except sub01 in CASMEII.  
   
-* How to run
+* **HDE** is the Holdout-Database Evaluation. For TEST_CASMEII, it means the model is trained on two datasets(SAMM SMIC) and tested on CASMEII.  
+
+* Notice: for each tries, you can use the *get_samples_Train_Test_TXT.py* to get the .txt list.
+  
+* How to run  
 For the exsample of CASMEII_sub01 fold, you just need to change your root in ../ACII19-Apex-Time-Network-master/, and then run: sh train_net.sh in the terminal.
 
 
