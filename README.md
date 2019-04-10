@@ -11,9 +11,9 @@ Caffe：https://github.com/BVLC/caffe/
   SAMM: http://www2.docm.mmu.ac.uk/STAFF/m.yap/dataset.php  
   SMIC: https://www.oulu.fi/cmvs/node/41319  
 * if you wann't to download the original database, the **Data** fold contain all the needed data for this repositories.  
-  1.*Add_python_layers* contain a .py scrip that for image and point data load in Caffe.  
-  2.*Apex_Cropped_images* contains all the Apex images of three Database (namely: CASMEII SAMM SMIC). *Apex_Cropped_images.txt* contains image root and label in *Apex_Cropped_images* fold.  
-  3.*OpticalFlowFeatureData.txt* is the temporal features described in our paper.
+  1. **Add_python_layers** contain a *.py* scrip that for image and point data load in Caffe.  
+  2. **Apex_Cropped_images** contains all the Apex images of three Database (namely: CASMEII   SAMM   SMIC).  **Apex_Cropped_images.txt** contains image root and label in **Apex_Cropped_images** fold.  
+  3. **OpticalFlowFeatureData.txt** is the temporal features described in our paper.
 
 
   
