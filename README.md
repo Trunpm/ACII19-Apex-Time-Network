@@ -1,7 +1,7 @@
-# ACII19-Apex-Time-Network
-A Novel Apex-Time Network for Cross-Dataset Micro-Expression Recognition
+# ACII'19 Apex-Time-Network (ATNet)
+Code for the paper 'A Novel Apex-Time Network for Cross-Dataset Micro-Expression Recognition', presented at ACII'19.
   
-  
+![ALT TEXT](atnet.png 'Overview of the ATNet')  
   
 # Platforms and dependencies
 Ubuntu 16.04  Python 2.7  CUDA8.0 CuDNN6.0+  
@@ -61,13 +61,7 @@ The optical method for HOOF is refer to https://www.researchgate.net/publication
   
 If it is helpful, please cite:  
   
-A Novel Apex-Time Network for Cross-Dataset Micro-Expression Recognition. https://www.researchgate.net/publication/332259425_A_Novel_Apex-Time_Network_for_Cross-Dataset_Micro-Expression_Recognition?_sg=diGU1pnYWL7jyG27PigpTGSgGICMIcJsBVUvzS9L7JnOVYtp5Mc-zzDd45vy3xh0KZH5F67mIPFGFk3yKUlZvshslwHCR9PDB8ncvkNO.RwlNqjQR1J3Gf3mVvxE2nVKVCUIlyY78jnALqP2FlzD_qa_WWG1bUhRSNKPfBQ85rBKOigKyblpeKjQ7HItCLA
-  
-Micro-Attention for Micro-Expression recognition. Chongyang Wang, Min Peng, Tao Bi, Tong Chen. arXiv preprint arXiv:1811.02360, 2018.  
-  
-From Macro to Micro Expression Recognition: Deep Learning on Small Datasets Using Transfer Learning. Min Peng, Wu Zhan, Zhihao Zhang, Tong Chen. IEEE International Conference on Automatic Face & Gesture Recognition 2018.  
-  
-Dual temporal scale convolutional neural network for micro-expression recognition. Min Pen, Chongyang Wang, Tong Chen. Frontiers in psychology.
+Peng, Min, Chongyang Wang, Tao Bi, Yu Shi, Xiangdong Zhou, and Tong Chen. "[A novel apex-time network for cross-dataset micro-expression recognition](https://ieeexplore.ieee.org/abstract/document/8925525/)", In 2019 8th International Conference on Affective Computing and Intelligent Interaction (ACII), pp. 1-6. IEEE, 2019.
 
 
 
